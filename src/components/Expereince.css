@@ -1,0 +1,28 @@
+.experience{
+    max-width: 1500px;
+    margin: 5rem;
+}
+.experience img{
+    width: 30rem;
+    height: 20rem;
+    margin-left: -.1rem;
+}
+.experience h2{
+margin-top:-1rem ;
+font-size: 20px;
+}
+.experience h5{
+    color: #29AB09;
+}
+.experience p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 3rem;
+    justify-content: center;
+}
+.experience-container{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+    gap: 5rem;
+}
