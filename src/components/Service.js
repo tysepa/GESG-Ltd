@@ -36,7 +36,7 @@ const data = [
 function Service() {
   return (
     <>
-      <div id='services'>
+      <div id='services' className='services'>
         <h5>Our Services</h5>
         <h2>Don’t Worry To Fail.<br />
           We Have Experienced  With Best Things</h2>

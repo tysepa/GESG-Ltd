@@ -1,0 +1,177 @@
+.contant{
+    background: #F6C823;
+    color: #fff;
+}
+
+.contact-container{
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: 49.5% 50%;
+    gap: 0.5%;
+}
+.contact-left{
+    background: #29AB09;
+    width: auto;
+    margin: 2rem 0;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.contact-left form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 3rem;
+}
+.contact-left form .form1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+}
+input{
+    width: 65%;
+    margin-left: 2rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 4px solid #F6C823;
+    resize: none;
+    color: #fff;
+}
+
+textarea{
+    width: 82%;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 4px solid #F6C823;
+    resize: none;
+    color: #fff;
+
+}
+.btn-primar{
+    background: #61dafb;
+    width: 82%;
+    display: inline-block;
+    color: #fff;
+    padding: 0.75rem 1.2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 400s ease;
+}
+.contact-right .pic{
+    width: 100%;
+    height: 100%;
+    
+}
+@media screen and (max-width:1200px) {
+    .contact-container{
+        margin: 3rem;
+        display: grid;
+        grid-template-columns:1fr;
+        gap: .1rem;
+    }
+    .contact-right .pic{
+        width: 100%;
+        height: 95%;
+        margin-left: 1rem;
+        
+    }
+    input{
+        width: 70%;
+        margin-left: 4.4rem;
+       
+    }
+    .contact-left form .form1{
+        grid-template-columns: 40% 60%;
+        gap: 1rem;
+        margin-right: 1rem;
+    }
+   
+    
+}
+@media screen and (max-width:964px) {
+    .contact-right .pic{
+        width: 100%;
+        height: 85%;
+        margin-left: 1rem;
+        
+    }
+
+    
+}
+@media screen and (max-width:768px){
+    .contact-left{
+      margin: 3rem -2rem;
+    }
+    .contact-left form .form1{
+        display: grid;
+        grid-template-columns:  repeat(2 , 1fr);
+        gap: .5rem;
+        margin-left: -1rem;
+    }
+    input{
+        width: 70%;
+       
+    }
+    textarea{
+        width: 85%;
+        margin-left: 2.5rem;
+    
+    }
+   
+}
+
+@media screen and (max-width:600px){
+    .contact-left{
+      margin: 3rem -2rem;
+    }
+    .contact-left form .form1{
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: .5rem;
+        margin-left: -2.5rem;
+    }
+    input{
+        width: 76%;
+       
+    }
+    textarea{
+        width: 80%;
+    
+    }
+    .contact-right .pic{
+     display: none;
+        
+    }
+}
+
+@media screen and (max-width:450px){
+    .contact-left{
+      margin: 3rem -2rem;
+    }
+    .contact-left form .form1{
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: .5rem;
+        margin-left: -3rem;
+    }
+    input{
+        width: 70%;
+       
+    }
+    textarea{
+        width: 77%;
+        margin-left: 5px;
+    
+    }
+    .contact-right .pic{
+     display: none;
+        
+    }
+}

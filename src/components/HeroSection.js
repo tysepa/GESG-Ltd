@@ -18,7 +18,7 @@ function HeroSection() {
                             checking the latest online sources such as business directories, company websites, or news articles. Additionally, you may want to specify the industry or sector in which Global Excellent Solutions Group operates, as there might be multiple companies with similar names across different fields.
 
                         </p>
-                        <button className='btn-primary'>Contact with us</button>
+                        <a href='#contact' className='btn btn-primary'>Contact with us</a>
                     </div>
                 </div>
                 </div>

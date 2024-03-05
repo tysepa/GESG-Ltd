@@ -4,6 +4,12 @@ body{
     color: black;
     
 }
+.container{
+    
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+}
 .left-cont{
     background: #f6c8239c;
     height: 44.5rem;
@@ -22,7 +28,8 @@ body{
     margin-left: -23rem;
     margin-top: 25rem;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    text-align: center;
    
 }
 .exp-cont{
@@ -41,12 +48,34 @@ body{
 }
 .exp-cont .btn-primary{
     background: #29AB09;
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem;
     margin:.5rem 1rem;
-    border-radius: 5px;
+    border-radius: 5px; */
     color: #fff;
     font-weight: 500;
-    margin-left: 15rem;
+    /* margin-left: 15rem; */
     cursor: pointer;
+    
+}
+
+@media screen and (max-width:1200px){
+    .down-cont{
+        font-size: 14px;
+        margin-left: -18rem;
+        margin-top: 25rem;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:920px) {
+    .down-cont{
+        width:25rem ;
+        font-size: 14px;
+        margin-left: -15rem;
+        margin-top: 20rem;
+        align-items: center;
+    }
     
 }
